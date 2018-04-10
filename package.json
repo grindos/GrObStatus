@@ -1,0 +1,16 @@
+{
+  "name": "grobstatus",
+  "version": "1.0.0",
+  "description": "Take the random line from Letov's lyrics and set it as VK status",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grindos",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "iconv-lite": "^0.4.21",
+    "request": "^2.85.0"
+  }
+}
