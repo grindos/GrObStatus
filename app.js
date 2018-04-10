@@ -20,9 +20,11 @@ request(opt, (err, res, body) => {
 
     let links = $('#abc_list li').find('a').toArray();
     let hrefs = [];
+
+    // Create the array with links to every song
     links.forEach((elem) => {
         hrefs.push(elem.attribs.href);
-    })
+    });
 
     console.log(hrefs);
 });
